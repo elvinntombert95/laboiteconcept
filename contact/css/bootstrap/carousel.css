@@ -1,0 +1,29 @@
+.me {
+    margin-left: 300px;
+    margin-bottom: 29px;
+}
+.title {
+    display: block;
+    margin-right: 200px;
+    color: #231f20;
+}
+.btn {
+    margin-top: 30px;
+    margin-right: 190px;
+    background-color: #231f20;
+    color: #ffffff;
+    font: 500 30px / 24px Lato;
+}
+.text {
+    margin-right: 40px;
+    font-size: 18pt;
+    color: rgba(35, 31, 32, 0.75);
+}
+.container1 {
+    margin-bottom: 30px;
+    margin-left: 300px;
+}
+
+.img {
+    margin-top: 60px
+}

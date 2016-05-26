@@ -1,0 +1,187 @@
+body, footer, header {
+     font-family: lato;
+}
+
+.logo {
+    margin: 20px auto;
+    display: block;
+}
+
+.first_nav>ul {
+    display: inline-block;
+}
+.ul {
+    width: 100%;
+}
+
+.first_nav>ul {
+    width: 56%;
+    margin:30px auto;
+    display: block;
+}
+
+.bar {
+    
+}
+.first_nav>ul>li {
+    display: inline-block;
+      padding-left: 4.2%;
+}
+.first_nav>ul>li>a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+}
+#color {
+    color: #a17e6d;
+    border-bottom: 1px solid #000;
+}
+.black_bar1 {
+    margin-top: 7.6%;
+    width: 100%;
+    border:#231f20 solid 2pt;
+}
+.black_bar {
+    width: 100%;
+    border-top: #231f20 solid 2pt;
+    border-bottom: #231f20 solid 2pt;   
+}
+
+.reso {
+    clear: both;
+    margin: 7.9% 0 0 42.8%;
+    display: inline-block;
+    width: 30%;
+}
+
+.reso>li {
+    display: inline-block;
+    margin-left: 5.6%;
+}
+small {
+    display: block;
+    width: 32%;
+    margin: 2% 0 1% 35%;
+    font-size: 11px;
+    text-align: center;
+}
+
+.faut_carrouselle {
+    margin-top: 5%;
+    border-bottom: 4px solid #000;
+    border-top: 4px solid #000;
+}
+
+.arbre {
+    float: left;
+    margin-top: 3.6%;
+}
+
+.container {
+    float: left;
+    position: relative;
+    display: inline-block;
+    height: auto;
+    border-top: 4px solid #000;
+    border-bottom: 4px solid #000;
+}
+
+.text_carrouselle {
+    font-size: 30px;
+    color: rgba(35, 31, 32, 0.75);
+    display: block
+}
+
+.produit1 {
+    font-size: 48px;
+    color: #231f20;
+    margin-top: 22px;
+    display: block;
+}
+
+.view {
+    background-color: #231f20;
+    color: #ffffff;
+    font: 500 30px / 24px Lato;
+    margin-top: 20px;
+}
+
+.black {
+    border: 4px solid #000;
+}
+.h3_cache {
+    display: none;
+}
+.cache {
+    display: none;
+}
+#menu-toggle {
+    display: none;
+}
+/*DEBUT MEDIA QUERY*/
+
+@media only screen and (max-width:1024px) {
+    .logo {
+        margin-left: 44.5%;
+        margin-top: 2.5%;
+    }
+    .first_nav>ul {
+        margin-top: 4%;
+        margin-left: 15%;
+    }
+    .text {
+        font-size: 12pt;
+        margin-left: 10px;
+    }
+    .title {
+        margin-right: 110px;
+    }
+    .container1 {
+        width: 80%;
+        margin-left: 290px;
+    }
+    .btn {
+        font-size: 18pt;
+        margin-right: 105px;
+    }
+    .reso>li {
+        margin-left: 14%;
+    }
+    .reso {
+            margin: 7.9% 0 0 32.8%;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .logo {
+        margin-left: 44.5%;
+        margin-top: 2.5%;
+    }
+    .first_nav>ul {
+        margin-top: 4%;
+        margin-left: 15%;
+    }
+    .text {
+        font-size: 12pt;
+        margin-left: 10px;
+    }
+    .title {
+        margin-right: 110px;
+    }
+    .container1 {
+        width: 80%;
+        margin-left: 290px;
+    }
+    .btn {
+        font-size: 14pt;
+        margin-right: 105px;
+    }
+    .reso>li {
+        margin-left: 14%;
+    }
+    .reso {
+        margin: 7.9% 0 0 32.8%;
+    }
+
+}
+

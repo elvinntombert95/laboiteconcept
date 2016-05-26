@@ -1,0 +1,347 @@
+body, footer, header {
+     font-family: lato;
+}
+
+/*HEADER*/
+.logo {
+    margin: 20px auto;
+    display: block;
+}
+
+.first_nav>ul {
+    display: inline-block;
+}
+.ul {
+    width: 100%;
+}
+
+.first_nav>ul {
+    width: 56%;
+    margin:50px auto;
+    display: block;
+}
+
+.first_nav>ul>li {
+    display: inline-block;
+      padding-left: 4.2%;
+}
+.first_nav>ul>li>a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+}
+
+/*TOP HEADER*/
+.top-header {
+    background: url(../img/carou2.jpg);
+    width: 100%;
+    height: 386px;
+    background-size: cover;
+}
+
+.top-header h2 {
+    font-size: 30px;
+    padding: 15px;
+    border: solid white;
+    text-align: center;
+    color: white;
+    width: 246px;
+    margin:auto;
+        position: relative;
+    top: 120px;
+}
+
+.top-header img{
+    margin:auto;
+    display: block;
+    width: 100px;
+}
+
+/*PAGE PROD*/
+.popup-1 {
+    width: 100%;
+    margin: auto;
+}
+.background-popup {
+    background: url(../img/pop1.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 457px;
+}
+
+.background-popup h1 {
+    text-align: right;
+    position: relative;
+    top: 345px;
+    right: 100px;
+    font-size: 100px;
+        line-height: 1.1;
+}
+
+    .bloc-arrow {
+        width: 100%;
+        height: 350px;
+            clear: both;
+    }
+
+    .arrow {
+        width: 130px;
+        height: 70px;
+        margin:auto;
+        position: relative;
+        top: 40%;
+    }
+
+    .arrow img {
+        width: 130px;
+        height: 70px;
+    }
+
+.bloc-presentation h1 {
+    color: #ad906e;
+    font-size: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 130px;
+}
+
+.bloc-presentation h2 {
+    font-size: 50px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.bloc-presentation h3 {
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.bloc-presentation article {
+    margin-bottom: 90px;
+}
+
+.under-bloc {
+    padding: 50px 70px;
+    background: #e2dede;
+}
+
+.bloc-one {
+    float: left;
+
+}
+
+.bloc-one article {
+    padding: 10px;
+    width: 330px;
+    border: solid;
+    float: left;
+}
+.bloc-one p{
+    float: right;
+    font-family: sans-serif;
+    padding: 35px;
+}
+
+.bloc-two {
+    float: right;
+}
+
+
+.bloc-two article {
+    padding: 10px;
+    width: 330px;
+    border: solid;
+    float: right;
+}
+.bloc-two p {
+    float: left;
+    font-family: sans-serif;
+    padding: 35px;
+}
+
+.bloc-three article {
+    padding: 10px;
+    width: 330px;
+    border: solid;
+    margin: auto;
+    clear: both;
+}
+
+.bloc-three p {
+    width: 285px;
+    text-align: center;
+    margin:auto;
+    font-family: sans-serif;
+    padding: 35px 0 0 0;
+}
+
+/*COMPOSITE*/
+.composite {
+    text-align: center;
+    width: 885px;
+    padding: ;
+    border: 8px solid #ad906e;
+    margin: 110px auto;
+}
+
+.composite p {
+    font-family: sans-serif;
+}
+
+.composite img {
+    margin:auto;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.composite section article {
+    display: inline-block;
+    width: 290px;
+    padding: 50px;
+}
+
+/*DESIGNER*/
+.bloc-designer h1 {
+    color: #ad906e;
+    font-size: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 130px;
+}
+
+.left {
+    float: left;
+    width: 63%;
+}
+
+.right {
+    font-family: sans-serif;
+    text-align: justify;
+    width: 35%;
+    height: 330px;
+    float: left;
+    overflow: auto;
+}
+
+.right h2 {
+    text-align: center;
+    font-size: 20px;
+}
+.right h3 {
+    text-align: center;
+}
+
+.right b {
+    font-weight: bold;
+}
+
+/*FICHE TECHNIQUE*/
+.fiche-technique {
+    width: 100%;
+}
+
+.fiche-technique h1 {
+    color: #ad906e;
+    font-size: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 130px;
+}
+
+.fiche-technique section {
+    background: #f9f9f9;
+    padding: 120px 85px;
+}
+
+.fiche-technique img {
+    width: 290px;
+}
+
+.article-1, .article-2, .article-3, .article-4 {
+    width: 100%;
+    height: 400px;
+}
+
+.contain-1 {
+    width: 25%;
+    float: left;
+}
+
+.contain-2 {
+    width: 60%;
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.contain-2 h2 {
+    font-size: 48px;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+.contain-2 button {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: auto;
+    display: block;
+    background: none;
+    border: solid;
+    padding: 10px;
+}
+
+.contain-3 {
+    clear: both;
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.contain-3 h2 {
+    font-size: 48px;
+    font-family: sans-serif;
+    text-align: justify;
+        margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.contain-3 button {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: auto;
+    display: block;
+    background: none;
+    border: solid;
+    padding: 10px;
+}
+
+.contain-4 {
+    width: 25%;
+    float: right;
+}
+
+/*FOOTER*/
+.footer {
+    width: 100%;
+    padding: 80px 0;
+    background: #f9f9f9;
+}
+
+.reso {
+    clear: both;
+    margin: auto;
+    display: block;
+}
+
+.reso>li {
+    display: inline-block;
+    margin-left: 3.6%;
+}
+small {
+    display: block;
+    width: 40%;
+    margin: 2%;
+    font-size: 11px;
+    text-align: center;
+}

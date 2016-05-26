@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>La boite concept</title>
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+     <link href="css/main.css" rel="stylesheet" type="text/css"> 
+</head>
+<body>
+    <a href="../index.html">
+        <img src="img/LOGO.png" alt="logo La boite concept" class="logo">
+    </a>
+
+    <nav class="first_nav">
+        <ul>
+            <li><a href="../products/index.html">LES PRODUITS</a></li>
+            <li><a href="index.html">TESTS</a></li>
+            <li><a href="../actu/index.html">ACTUALITE</a></li>
+            <li><a href="../index.html" id="color">ACCUEIL</a></li>
+            <li><a href="../collab/index.html" id="collab">COLLAB</a></li>
+            <li><a href="../dist/index.html" id="distrib">DISTRIBUTEURS</a></li>
+            <li><a href="../contact/index.html" id="contact">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <div class="top-header">
+        <h2>Tests</h2>
+            <div  class="arrow">
+                <a href="#" class="scrollTo" >
+                    <img src="img/arrow.png">
+                </a>
+            </div>
+    </div>
+
+
+    <div class="under">
+        <div class="title-first">
+            <h3>Habillez votre intérieur</h3>
+        </div>
+            <div class="title-second">
+                <h3>Et fermez les yeux ...</h3>
+            </div>
+    </div>
+
+    <center class="footer">
+        <ul class="reso">
+            <li>
+                <a href="#"><img src="img/footer/face_icon.png" alt="facebook"></a>
+            </li>
+            <li>
+                <a href="#"><img src="img/footer/twitter_icon.png" alt="tweter"></a>
+            </li>
+            <li>
+                <a href="#"><img src="img/footer/insta_icon.png" alt="pinterest"></a>
+            </li>
+            <li>
+                <a href="#"><img src="img/footer/google+.png" alt="google +"></a>
+            </li>
+        </ul>
+
+        <small>2008-2015 La Boite concept est une marque des laboratoires CC LAB / Modèles déposés 
+        08, 09, 10, 11, 12, 13, 14, 15 / Brevets déposés / Int European patent</small>
+    </center>
+
+    <div class="popup-1">
+        <img src="img/close.png" class="close">
+            <div class="background-popup">
+                <h1>LD Cube</h1>
+            </div>
+    </div>
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="js/jquery-2.2.0%20(2).js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+    /*SCROLL*/
+    $(document).ready(function() {
+        $('.scrollTo').click( function() { // Au clic sur un élément
+            var page = $(this).attr('href'); // Page cible
+            var speed = 1000; // Durée de l'animation (en ms) (750 à la base)
+            $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+            return false;
+        });
+    });
+
+    /*POP UP*/
+
+</script>
+
+
+</html>
